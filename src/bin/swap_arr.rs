@@ -20,4 +20,4 @@ fn main() {
     let mut array = [1, 2, 3, 4, 5];
     swap_arr(&mut array, 2, 3);
     wyswietl(&array);
-}
+} //s
