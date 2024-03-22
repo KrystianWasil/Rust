@@ -13,7 +13,7 @@ fn rzymskie(napis: &str) -> u128 {
             'M' => 1000,
             _ => {
                 println!("Nieznany znak: {}", current_char);
-                0 
+                0
             }
         };
 

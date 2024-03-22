@@ -1,4 +1,4 @@
-fn fp() -> i64{
+fn fp() -> i64 {
     if 1 == 2 {
         3;
     } else {
@@ -7,5 +7,4 @@ fn fp() -> i64{
 }
 fn main() {
     println!(fp());
-    
 } // tutaj () odpowiedz

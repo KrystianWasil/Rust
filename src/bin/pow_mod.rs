@@ -1,6 +1,6 @@
 fn pow_mod(x: u128, n: u128, p: u128) -> u128 {
     if p == 1 {
-        return 0;  // if p == 1 
+        return 0; // if p == 1
     }
 
     let mut result = 1;
@@ -12,7 +12,7 @@ fn pow_mod(x: u128, n: u128, p: u128) -> u128 {
             result = (result * base) % p;
         }
 
-        power >>= 1; 
+        power >>= 1;
         base = (base * base) % p;
     }
 
@@ -20,7 +20,6 @@ fn pow_mod(x: u128, n: u128, p: u128) -> u128 {
 }
 
 fn main() {
-
     let x = 5;
     let n = 3;
     let p = 13;

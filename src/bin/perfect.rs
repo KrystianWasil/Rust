@@ -5,10 +5,10 @@ fn perfect(arg: i64) -> bool {
         if n >= arg {
             break;
         }
-        if arg%n == 0 {
+        if arg % n == 0 {
             sum += n;
-        } 
-        n+=1;
+        }
+        n += 1;
     }
     sum == arg
 }

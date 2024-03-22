@@ -12,9 +12,7 @@ fn swap_arr(arr: &mut [i32], i: usize, j: usize) {
     let temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
-
 }
-
 
 fn main() {
     let mut array = [1, 2, 3, 4, 5];
