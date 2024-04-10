@@ -6,12 +6,12 @@ fn fp(x: f64) -> f64 {
     2.0 * x
 }
 
-fn f(x: f64) -> f64 {
-    return x.powf(2.0) - 1.0;
-}
-fn fp(x: f64) -> f64 {
-    return 2.0 * x;
-}
+// fn f(x: f64) -> f64 {
+//     return x.powf(2.0) - 1.0;
+// }
+// fn fp(x: f64) -> f64 {
+//     return 2.0 * x;
+// }
 fn met_newt_loop(x0: f64, eps: f64, n: u128) -> f64 {
     let mut result: f64 = x0;
     let mut i: u128 = 1;
